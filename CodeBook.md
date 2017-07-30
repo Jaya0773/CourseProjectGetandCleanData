@@ -1,7 +1,7 @@
-#Code Book for the Getting and Cleaning Data Course Project - Tidy UCI HAR Dataset
+## Code Book for the Getting and Cleaning Data Course Project - Tidy UCI HAR Dataset
 
 
-##Data Origin
+## Data Origin
 
 The dataset is from the Human Activity Recognition Using Smartphones Dataset.The experiments have been carried out with a group of 30 volunteers 
 within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
@@ -13,7 +13,7 @@ for generating the training data and  30% the test data.
 
 Please refer to [features.txt](features.txt) and [features_info.txt](features_info.txt) and [Readme.txt](Readme.txt) for the original dataset descriptions.
 
-##Variable Name Changes
+## Variable Name Changes
 
 The Following rules were applied to the existing data column names for readablity
 - Replace Acc with Acceleration
