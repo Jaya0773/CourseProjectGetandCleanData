@@ -1,2 +1,31 @@
-# CourseProjectGetandCleanData
-Course Project Getting and Cleaning Data
+==================================================================
+Peer-graded Assignment: Getting and Cleaning Data Course Project
+Version 1.0
+==================================================================
+ 
+This repo contains the R scrips that is used to analyse the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+and converts into a tidy data set.
+
+##  Requirements
+
+  -  Merges the training and the test sets to create one data set.
+  -  Extracts only the measurements on the mean and standard deviation for each measurement.
+  -  Uses descriptive activity names to name the activities in the data set
+  -  Appropriately labels the data set with descriptive variable names.
+  -  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## R code  [run_analysis.R](run_analysis.R)
+  -  Extracts the test and train data from the given website
+  -  transforms the data
+  -  merges the test and train data
+  -  extracts the mean and standard deviation for each measurement
+  -  prepares a new tidy data with the average of each variable for each activity and each subject 
+  -  writes the new tidy data to a file
+
+## Data CodeBook
+
+The [codebook](CodeBook.md) available in this repo describes the variables, the transformations and clean up done.
+
+Notes:
+=======
+Please load the "dplyr" and "tidyr" packages before running the script
