@@ -1,7 +1,5 @@
-==================================================================
-Peer-graded Assignment: Getting and Cleaning Data Course Project
-Version 1.0
-==================================================================
+##Peer-graded Assignment: Getting and Cleaning Data Course Project
+
  
 This repo contains the R scrips that is used to analyse the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 and converts into a tidy data set.
